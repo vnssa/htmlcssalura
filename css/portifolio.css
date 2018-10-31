@@ -1,0 +1,21 @@
+.portifolio{
+    border: 0.5em solid #000; 
+    display: inline-block;
+    float: left;
+    width: 45%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0.8em;
+}
+
+.portifolio img{
+    width: 100%;
+}
+
+.portifolio-titulo{
+    font-size: 200%;
+    font-family: "Open Sans Condensed", sans-serif;
+    clear: both;
+    margin-left: 20px;
+    padding: 0.5em;
+}

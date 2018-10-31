@@ -1,0 +1,103 @@
+html{
+    font-size: 110%;    
+}
+body {
+    font-family: "Crimson Text", serif;
+    background-color: #F2FFFC; 
+    line-height: 1.5rem;
+}
+main{
+    width: 80%;
+    float: left;
+    padding-bottom: 80px;
+}
+main h1 {
+    font-size:300%;
+    background-color: #009696;
+    color: #FAFFFA;
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+    border-bottom: 0.5rem solid black;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+}
+main div {
+    margin: auto;
+    width: 720px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+h2 {
+    font-size: 200%;
+    font-family: "Open Sans Condensed", sans-serif;
+    clear: both;
+    margin-left: 20px;
+    padding: 1em;
+}
+p {
+    text-align: justify;
+    margin: 20px;
+}
+aside{
+    padding: 2rem;
+    width: 20%;
+    position: relative;
+    top: 310px;
+}
+aside, .minha-foto {
+    background-color: #3C1D3D;
+    text-align: center;
+    box-sizing: border-box;
+    float: right;
+    border: 0.5rem solid #000;
+}
+.minha-foto{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+aside h1{
+    font-size: 30px;
+}
+.rodape-principal {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+aside a, aside h1 {
+    font-family: "Open Sans Condensed", sans-serif;    
+    color: #F2FFFC;
+    text-decoration: none;
+}
+main a {
+    color:#851944
+}
+em{
+    font-style: italic;
+}
+strong{
+    font-weight: bold;
+}
+.icones-sociais li {
+    display: inline-block;
+}
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.github{
+    background-image: url(../img/github.png);
+}
+.twitter{
+    background-image: url(../img/twitter.png);
+}
+.linkedin{
+    background-image: url(../img/linkedin.png);
+}

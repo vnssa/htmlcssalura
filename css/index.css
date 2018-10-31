@@ -1,0 +1,115 @@
+html{
+    font-size: 20px;
+}
+.titulo-principal{
+    background-color: #851944;
+    border-bottom: .5rem solid black;
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #FFF;
+    text-align: center;
+}
+.subtitulo-principal{
+    text-align: center;
+}
+.nome{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.foto-home {
+    height: 10rem;
+    margin: 1rem;
+}
+.saudacao p {
+    font-size: 1.5em;
+    color: #99A;
+    line-height: 1;
+    width: 60%;
+    margin: auto;
+    padding: 5rem;
+}
+.saudacao-inicio {
+    color: #889;
+    font-size: 2.5em;
+}
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    color: #000;
+    font-size: 2em;
+}
+.saudacao em {
+    color: #851944;
+    font-size: 3em;
+}
+.botao-index {
+    padding: .5rem;
+    margin: 2em auto;
+    background-color: #851944;
+    color: #FFF;
+    border: .2em solid black;
+    width: 40ch;
+    display: block;
+    text-align: center;   
+}
+.secao-inicio{
+    padding: 2em;
+}
+.secao-inicio h2 {
+    text-transform: uppercase;
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: .5rem solid #000;
+    border-bottom: .5rem solid #000;
+}
+.trabalhos h2 {
+    color: #FFF;
+}
+.trabalhos ul {
+    border: .5rem solid black;
+    overflow: hidden;
+}
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: .5em solid #851944;
+    position: relative;
+}
+.blog small{
+    position: relative;
+    top:-2em;
+}
+.blog li a {
+    color: #FCF;
+    padding: .5em;
+    display: block;
+}
+.inicio-post{
+    background-color: #FFF;
+    color: black;
+    position: absolute;
+    top: 3em;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2%;
+}
+footer a {
+    color: #F99;
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}

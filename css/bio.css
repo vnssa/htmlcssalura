@@ -1,0 +1,15 @@
+blockquote {
+    background-color: #D9E5E3;
+    padding: 1em;
+    border: 0.5em solid #C2CCCA;
+    width: 30ch;
+    margin: 1ch 2ch;
+    box-sizing: border-box;
+}
+.fiat{
+    float: right;
+}
+.petrobras{
+    float: left;
+}
+
